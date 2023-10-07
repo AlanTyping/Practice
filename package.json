@@ -1,0 +1,25 @@
+{
+  "name": "pepas",
+  "version": "1.0.0",
+  "description": "Estoy aprendiendo lo básico de node",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "curso",
+    "pepa",
+    "maradona",
+    "ricardo-for"
+  ],
+  "author": "Alan Nicolás Rosales",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.18.2",
+    "picocolors": "^1.0.0",
+    "zod": "^3.22.4"
+  }
+}
